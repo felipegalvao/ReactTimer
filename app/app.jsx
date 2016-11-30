@@ -6,11 +6,11 @@ var Countdown = require('Countdown');
 var Timer = require('Timer');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
 
 // Load app.css
 require('style!css!sass!applicationStyles');
-$(document).foundation();
+
 
 ReactDOM.render(
   <Router history={hashHistory}>
